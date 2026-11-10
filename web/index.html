@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d14">
+  <title>Mi alarma</title>
+  <link rel="stylesheet" href="/assets/app.css">
+  <script src="/assets/app.js" defer></script>
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div class="brand"><h1>Alarma</h1><small>Panel local</small></div>
+      <div class="top-actions"><div class="top-status"><span class="status-dot" id="connection-dot"></span><span id="connection">Conectando…</span></div><button type="button" id="open-keypad" class="icon-button" aria-label="Abrir teclado" title="Abrir teclado"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="3" stroke="currentColor" stroke-width="1.5"/><path d="M8 8h.01M12 8h.01M16 8h.01M8 12h.01M12 12h.01M16 12h.01M8 16h.01M12 16h.01M16 16h.01" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg></button><button id="theme-toggle" class="theme-toggle" type="button" aria-label="Cambiar tema">☼</button></div>
+    </header>
+
+    <div class="overview">
+      <section class="card alarm-card" aria-label="Estado de la alarma">
+        <div class="alarm-state"><span class="large-dot" id="alarm-dot"></span><div><strong id="alarm-state">Sin información</strong><p id="alarm-detail">Esperando al panel</p></div></div>
+        <div class="actions" role="group" aria-label="Controles de la alarma">
+          <button data-command="arm_away" disabled><span class="mode-name">Fuera</span></button>
+          <button data-command="arm_home" disabled><span class="mode-name">En casa</span></button>
+          <button data-command="arm_night" disabled><span class="mode-name">Noche</span></button>
+          <button data-command="disarm" disabled>Desactivar</button>
+        </div>
+        <p class="operation" id="operation" role="status" aria-live="polite"></p>
+        <button type="button" class="forget-code" id="forget-code" hidden>Olvidar código de esta página</button>
+      </section>
+
+      <section class="card health-card" aria-labelledby="health-title">
+        <div class="card-header"><h2 id="health-title">Sistema</h2></div>
+        <div class="health-row"><span>Conexión con el panel</span><strong id="panel-health">Sin datos</strong></div>
+        <div class="health-row"><span>Averías</span><strong id="trouble-health">Sin datos</strong></div>
+        <div class="health-row"><span>Incendio</span><strong id="fire-health">Sin datos</strong></div>
+      </section>
+    </div>
+
+    <section class="zones-section" aria-labelledby="zones-title">
+      <div class="section-title"><div><p class="eyebrow">ESPACIOS</p><h2 id="zones-title">Zonas</h2><p class="subtle">Sensores organizados por departamento.</p></div><span class="zone-count" id="zone-count">—</span></div>
+      <div class="groups" id="zone-groups"><p class="empty">Esperando información de las zonas…</p></div>
+    </section>
+    <section class="activity-section" aria-labelledby="activity-title">
+      <div class="section-title"><div><p class="eyebrow">REGISTRO LOCAL</p><h2 id="activity-title">Actividad reciente</h2><p class="subtle">Cambios observados desde el último reinicio.</p></div><span class="zone-count">Últimos 64</span></div>
+      <div class="activity-card" id="activity-list"><p class="empty">Esperando actividad…</p></div>
+    </section>
+    <footer>Mi alarma <span>·</span> Panel local</footer>
+  </main>
+
+  <dialog id="command-dialog" aria-labelledby="dialog-title">
+    <form id="command-form" method="dialog">
+      <button class="close" type="button" id="close-command" aria-label="Cerrar">×</button>
+      <h2 id="dialog-title">Acción</h2>
+      <p class="dialog-copy" id="dialog-copy"></p>
+      <label for="alarm-code">Código de alarma</label>
+      <input id="alarm-code" type="password" inputmode="numeric" autocomplete="off" maxlength="6" pattern="[0-9]*" placeholder="••••" required>
+      <label class="remember-code"><input id="remember-code" type="checkbox"> Recordar mientras esta página esté abierta</label>
+      <div class="dialog-actions"><button type="button" id="cancel-command">Cancelar</button><button type="submit" class="primary">Continuar</button></div>
+    </form>
+  </dialog>
+  <dialog id="keypad-dialog" aria-labelledby="keypad-title">
+    <button class="close" id="close-keypad" aria-label="Cerrar">×</button>
+    <p class="eyebrow">CONTROL MANUAL</p><h2 id="keypad-title">Teclado</h2>
+    <div class="keypad-screen" role="status" aria-live="polite"><strong id="keypad-status">Esperando al panel</strong><small id="keypad-detail">La pantalla muestra estados interpretados del panel.</small></div>
+    <div class="keypad-keys" role="group" aria-label="Teclas de la alarma">
+      <button data-key="1">1</button><button data-key="2">2</button><button data-key="3">3</button>
+      <button data-key="4">4</button><button data-key="5">5</button><button data-key="6">6</button>
+      <button data-key="7">7</button><button data-key="8">8</button><button data-key="9">9</button>
+      <button data-key="*">*</button><button data-key="0">0</button><button data-key="#">#</button>
+    </div>
+    <p class="hint">Cada tecla se envía al panel. Evita usar el teclado físico al mismo tiempo.</p>
+    <p class="keypad-result" id="keypad-result" role="status" aria-live="polite"></p>
+  </dialog>
+</body>
+</html>

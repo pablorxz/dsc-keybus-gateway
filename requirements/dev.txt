@@ -1,0 +1,3 @@
+# Standalone C++ compiler for Windows; Linux CI uses GCC/Clang directly.
+ziglang==0.14.1
+

@@ -1,0 +1,82 @@
+{
+  "repository": "https://github.com/taligentx/dscKeybusInterface",
+  "commit": "ce12e1c05c1d42a0c58268fb06172391f0283a65",
+  "license": "GPL-3.0-or-later",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "url": "https://raw.githubusercontent.com/taligentx/dscKeybusInterface/ce12e1c05c1d42a0c58268fb06172391f0283a65/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "sha256": "45c01bd822a81f12b167239e5606475af93907595f1709f207b95cb45fdd6d49",
+      "url": "https://raw.githubusercontent.com/taligentx/dscKeybusInterface/ce12e1c05c1d42a0c58268fb06172391f0283a65/README.md"
+    },
+    {
+      "path": "library.properties",
+      "sha256": "83d6a164a71564bda9103587fa09dccdfd82c84a0cb68f80a57a4fa3882093f6",
+      "url": "https://raw.githubusercontent.com/taligentx/dscKeybusInterface/ce12e1c05c1d42a0c58268fb06172391f0283a65/library.properties"
+    },
+    {
+      "path": "library.json",
+      "sha256": "3ef22d1d3acdd8767f1766faf4fbfcb9614d7f6e249ef6a12412a96daca91f9b",
+      "url": "https://raw.githubusercontent.com/taligentx/dscKeybusInterface/ce12e1c05c1d42a0c58268fb06172391f0283a65/library.json"
+    },
+    {
+      "path": "src/dscClassic.cpp",
+      "sha256": "aa0f3fb9a44a6c887b8e07190f2b9a446dc9b9762d22aaf7216a95ef7da730c3",
+      "url": "https://raw.githubusercontent.com/taligentx/dscKeybusInterface/ce12e1c05c1d42a0c58268fb06172391f0283a65/src/dscClassic.cpp"
+    },
+    {
+      "path": "src/dscClassic.h",
+      "sha256": "efe5e96365dde806fa167754a47cf10403a0dceeb8744b0f67f8b9f5e3ef4e2f",
+      "url": "https://raw.githubusercontent.com/taligentx/dscKeybusInterface/ce12e1c05c1d42a0c58268fb06172391f0283a65/src/dscClassic.h"
+    },
+    {
+      "path": "src/dscClassicKeypad.cpp",
+      "sha256": "69a94da524664310f9fd2863af06042b23ce55ef598b856375fe79e081ee804e",
+      "url": "https://raw.githubusercontent.com/taligentx/dscKeybusInterface/ce12e1c05c1d42a0c58268fb06172391f0283a65/src/dscClassicKeypad.cpp"
+    },
+    {
+      "path": "src/dscClassicKeypad.h",
+      "sha256": "bd029b2ade6e5c9a33ba90c39e43f2a672151141910b07968fd96c1511905dca",
+      "url": "https://raw.githubusercontent.com/taligentx/dscKeybusInterface/ce12e1c05c1d42a0c58268fb06172391f0283a65/src/dscClassicKeypad.h"
+    },
+    {
+      "path": "src/dscKeybus.h",
+      "sha256": "60b348c21e07f602fc057e4fbc92606e765af778dc5e91a0276582e4f9bc4c32",
+      "url": "https://raw.githubusercontent.com/taligentx/dscKeybusInterface/ce12e1c05c1d42a0c58268fb06172391f0283a65/src/dscKeybus.h"
+    },
+    {
+      "path": "src/dscKeybusInterface.cpp",
+      "sha256": "e4715fd748a2479afc7999e5864aebd9d8ca76091441dddef628bd873642fbb2",
+      "url": "https://raw.githubusercontent.com/taligentx/dscKeybusInterface/ce12e1c05c1d42a0c58268fb06172391f0283a65/src/dscKeybusInterface.cpp"
+    },
+    {
+      "path": "src/dscKeybusInterface.h",
+      "sha256": "297d5be9651fefc841f9e6c8bf714f6b02c69c3e0d9c8c0b7ef04098ed667326",
+      "url": "https://raw.githubusercontent.com/taligentx/dscKeybusInterface/ce12e1c05c1d42a0c58268fb06172391f0283a65/src/dscKeybusInterface.h"
+    },
+    {
+      "path": "src/dscKeybusPrintData.cpp",
+      "sha256": "08253b89cc15eecbdb456dbebc0ee0a404467e66f4c88cd1dc7218c219629ef9",
+      "url": "https://raw.githubusercontent.com/taligentx/dscKeybusInterface/ce12e1c05c1d42a0c58268fb06172391f0283a65/src/dscKeybusPrintData.cpp"
+    },
+    {
+      "path": "src/dscKeybusProcessData.cpp",
+      "sha256": "52be1fbc4d0f0b996c4e986baed1dc62b1eea2fd151552f604efcfeb8fba9056",
+      "url": "https://raw.githubusercontent.com/taligentx/dscKeybusInterface/ce12e1c05c1d42a0c58268fb06172391f0283a65/src/dscKeybusProcessData.cpp"
+    },
+    {
+      "path": "src/dscKeypad.cpp",
+      "sha256": "50e5eafe4bbdb47bab6de060d912cf3057a3fab69721c9c342a93d963bb5f027",
+      "url": "https://raw.githubusercontent.com/taligentx/dscKeybusInterface/ce12e1c05c1d42a0c58268fb06172391f0283a65/src/dscKeypad.cpp"
+    },
+    {
+      "path": "src/dscKeypad.h",
+      "sha256": "9d3ae1f17e7fcd8fee5058678bf7866dcdb99fb42b02abc8ceea1bb8be23f955",
+      "url": "https://raw.githubusercontent.com/taligentx/dscKeybusInterface/ce12e1c05c1d42a0c58268fb06172391f0283a65/src/dscKeypad.h"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# Runtime/code generator used by the new ESP32 prototype, separate from baseline.
+esphome==2026.10.0

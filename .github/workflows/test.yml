@@ -1,0 +1,90 @@
+name: Keybus host tests
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  linux:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        compiler: [g++, clang++]
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tests/bench/test_analyze_soak.py
+      - run: python3 tools/build_web_assets.py --check
+      - run: cmake -S . -B build/native -DCMAKE_CXX_COMPILER=${{ matrix.compiler }} -DENABLE_SANITIZERS=ON -DCMAKE_BUILD_TYPE=Debug
+      - run: cmake --build build/native --parallel 2
+      - run: ctest --test-dir build/native --output-on-failure
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: results-${{ matrix.compiler == 'g++' && 'gcc' || 'clang' }}
+          path: |
+            build/test-results.json
+            build/core/test-results.json
+            build/application/test-results.json
+  windows:
+    runs-on: windows-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements/dev.txt
+      - run: python tools/run_tests.py --compiler zig
+      - run: python tools/run_tests.py --own-core --compiler zig
+      - run: python tools/run_tests.py --application --compiler zig
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: results-windows
+          path: |
+            build/test-results.json
+            build/host/compiler.log
+            build/core/test-results.json
+            build/core/compiler.log
+            build/application/test-results.json
+            build/application/compiler.log
+  dashboard-offline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-save --no-package-lock playwright@1.62.1
+      - run: npx playwright install --with-deps chromium
+      - run: node tests/integration/dashboard.js
+        env:
+          DSC_PLAYWRIGHT: ${{ github.workspace }}/node_modules/playwright
+  esp32-compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements/build.txt
+      - run: python tools/verify_upstream.py
+      - run: python -m platformio run -e esp32-baseline
+  esphome-prototype-compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements/firmware.txt
+      - run: python tests/integration/test_zones_config.py
+      - run: python tests/bench/test_connectivity_watch.py
+      - run: python tools/prepare_ci_firmware.py
+      - run: python tools/test_firmware_config.py
+      - run: python -m esphome compile .local/ci/bench.yaml

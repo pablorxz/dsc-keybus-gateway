@@ -1,0 +1,7 @@
+{
+  "name": "dsc-app",
+  "version": "0.1.0",
+  "license": "GPL-3.0-or-later",
+  "dependencies": [{"name": "dsc-core", "version": "0.1.0"}],
+  "build": {"srcDir": "src"}
+}

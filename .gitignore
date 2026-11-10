@@ -1,0 +1,12 @@
+.venv/
+.venv-esphome/
+.local/
+.pio/
+build/
+.zig-cache/
+zig-out/
+__pycache__/
+*.pyc
+secrets.yaml
+.env
+

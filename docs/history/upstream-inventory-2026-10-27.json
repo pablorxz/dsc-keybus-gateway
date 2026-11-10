@@ -1,0 +1,2007 @@
+{
+  "review_date": "2026-10-27",
+  "repository": "https://github.com/taligentx/dscKeybusInterface",
+  "master": "ce12e1c05c1d42a0c58268fb06172391f0283a65",
+  "develop": "ca09256f67462fde0c10073d8c02badfa29ed471",
+  "review_depth": "Full inventory. Focused code, comment and executable review of PowerSeries/ESP32 topics, all open PRs and selected historical PRs. Closed does not imply fixed.",
+  "issues": [
+    {
+      "number": 373,
+      "title": "PCB Gerber files?",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/373",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-01-06T15:49:46Z",
+      "closed_at": null
+    },
+    {
+      "number": 372,
+      "title": "Mqtt die",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/372",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2025-12-27T11:19:13Z",
+      "closed_at": null
+    },
+    {
+      "number": 371,
+      "title": "How to build the project on recent PlatformIO",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/371",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2025-11-12T16:40:35Z",
+      "closed_at": null
+    },
+    {
+      "number": 370,
+      "title": "Simulated keypad (ESP8266 OpenHAB-MQTT example) can’t arm after alarm until physical keypad clears memory",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/370",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2025-11-01T08:28:28Z",
+      "closed_at": null
+    },
+    {
+      "number": 369,
+      "title": "Problems writing on the panel when replacing the physical keyboard with the Arduino",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/369",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2025-10-18T04:14:57Z",
+      "closed_at": null
+    },
+    {
+      "number": 367,
+      "title": "DSC2500",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/367",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2025-08-11T18:02:11Z",
+      "closed_at": null
+    },
+    {
+      "number": 366,
+      "title": "error while compile",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/366",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2025-08-23T16:26:03Z",
+      "closed_at": null
+    },
+    {
+      "number": 364,
+      "title": "VirtualKeypad-Web",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/364",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2025-04-01T21:08:00Z",
+      "closed_at": null
+    },
+    {
+      "number": 361,
+      "title": "Examples - esp8266 - OpenHAB-MQTT --> Add Arm Mode Night (Stay with No Entry Delay)",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/361",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2025-02-09T03:24:31Z",
+      "closed_at": null
+    },
+    {
+      "number": 360,
+      "title": "Initialization of variables in c/c++",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/360",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2024-10-29T12:18:12Z",
+      "closed_at": null
+    },
+    {
+      "number": 357,
+      "title": "dsc.loop() in a timer event interrupt",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/357",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2024-10-14T20:27:07Z",
+      "closed_at": null
+    },
+    {
+      "number": 355,
+      "title": "DSC Unlocker 1.3 (esp32) - Stuck in dsc.loop()",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/355",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2024-10-13T15:47:02Z",
+      "closed_at": null
+    },
+    {
+      "number": 354,
+      "title": "Errors compiling using ESPHOME addon in Home Assistant OS",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/354",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2024-09-06T04:32:59Z",
+      "closed_at": null
+    },
+    {
+      "number": 353,
+      "title": "lovelace",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/353",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2024-08-26T06:22:45Z",
+      "closed_at": null
+    },
+    {
+      "number": 352,
+      "title": "Mqtt error ",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/352",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2024-08-25T20:29:41Z",
+      "closed_at": "2024-08-25T20:29:41Z"
+    },
+    {
+      "number": 351,
+      "title": "Force data synchronization [PC5010] (Power832) ",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/351",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2024-08-23T07:21:14Z",
+      "closed_at": "2024-08-23T07:21:14Z"
+    },
+    {
+      "number": 349,
+      "title": "PC1500 Classic Series armed/disarm",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/349",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2024-08-24T13:42:30Z",
+      "closed_at": null
+    },
+    {
+      "number": 346,
+      "title": "Diagrama de Conexion Arduino DSC",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/346",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2024-07-04T01:38:37Z",
+      "closed_at": null
+    },
+    {
+      "number": 344,
+      "title": "Issues compiling ESP32 examples",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/344",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2024-06-26T20:06:00Z",
+      "closed_at": null
+    },
+    {
+      "number": 343,
+      "title": "DSC Keypad Interface-MQTT 1.2 (Arduino with Ethernet)",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/343",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2024-05-22T02:59:58Z",
+      "closed_at": null
+    },
+    {
+      "number": 338,
+      "title": "PC3000 - Zones 9-16 not updating",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/338",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2025-01-03T04:27:08Z",
+      "closed_at": null
+    },
+    {
+      "number": 335,
+      "title": "Unable to request states for Zone 9 and 11+ (1-8 and 10 working fine) PC3000",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/335",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2024-01-17T14:59:13Z",
+      "closed_at": "2024-01-17T14:59:13Z"
+    },
+    {
+      "number": 331,
+      "title": "Lastest version outgrew UNO??",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/331",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2024-03-18T12:22:56Z",
+      "closed_at": null
+    },
+    {
+      "number": 330,
+      "title": "Ignore",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/330",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2023-11-25T17:32:18Z",
+      "closed_at": "2023-11-25T17:32:04Z"
+    },
+    {
+      "number": 328,
+      "title": "Debugging disarm not working overnight",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/328",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2025-10-20T21:47:33Z",
+      "closed_at": null
+    },
+    {
+      "number": 326,
+      "title": "Make your own input expander",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/326",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2023-09-08T06:27:36Z",
+      "closed_at": null
+    },
+    {
+      "number": 324,
+      "title": "DSC PC1550 Clasic Series 6 digit code compile ok but keep rebooting",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/324",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2024-03-08T09:14:11Z",
+      "closed_at": null
+    },
+    {
+      "number": 320,
+      "title": "OpenHab MQTT esp8266 issue",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/320",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2023-07-01T17:57:56Z",
+      "closed_at": null
+    },
+    {
+      "number": 318,
+      "title": "Keybus Error / Address?",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/318",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2023-05-22T18:35:23Z",
+      "closed_at": null
+    },
+    {
+      "number": 317,
+      "title": "VirtualKeypad WEB, serial output.",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/317",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2023-05-02T21:38:33Z",
+      "closed_at": null
+    },
+    {
+      "number": 315,
+      "title": "VirtualKeypad-Web compilation error",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/315",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2024-04-08T23:05:51Z",
+      "closed_at": null
+    },
+    {
+      "number": 314,
+      "title": "QR Code",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/314",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2023-03-10T18:07:30Z",
+      "closed_at": null
+    },
+    {
+      "number": 312,
+      "title": "Temperature display",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/312",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2023-04-30T09:00:01Z",
+      "closed_at": null
+    },
+    {
+      "number": 305,
+      "title": "esp32-Poe adapter support? ",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/305",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2024-03-18T13:56:47Z",
+      "closed_at": "2024-03-18T13:56:47Z"
+    },
+    {
+      "number": 304,
+      "title": "Is it possible to send disarm code via MQTT?",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/304",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2022-12-07T09:20:45Z",
+      "closed_at": null
+    },
+    {
+      "number": 303,
+      "title": "PC3000 Testing",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/303",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2022-09-04T15:39:36Z",
+      "closed_at": "2022-09-01T12:44:49Z"
+    },
+    {
+      "number": 300,
+      "title": "Status not properly reported for \"stay no entry delay\" ",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/300",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2022-08-09T14:45:41Z",
+      "closed_at": null
+    },
+    {
+      "number": 295,
+      "title": "[Contribution] New Status on Set 0x16 / Module PC5200",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/295",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2022-06-29T15:02:05Z",
+      "closed_at": null
+    },
+    {
+      "number": 294,
+      "title": "question",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/294",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2022-06-24T12:13:46Z",
+      "closed_at": null
+    },
+    {
+      "number": 292,
+      "title": "Question ) Module message for fir, auxiliary and panic alarm",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/292",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2022-05-17T00:03:46Z",
+      "closed_at": null
+    },
+    {
+      "number": 291,
+      "title": "[Contribution] Header file improvement",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/291",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2022-07-11T22:00:32Z",
+      "closed_at": null
+    },
+    {
+      "number": 289,
+      "title": "Missing module  interface data when using library functions from  dsckeybusinterface.cpp",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/289",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2023-05-03T19:55:33Z",
+      "closed_at": null
+    },
+    {
+      "number": 288,
+      "title": "When arming Away the status of the alarm continuously changes between armed and disarmed",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/288",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2022-08-11T20:11:06Z",
+      "closed_at": "2022-08-11T20:11:06Z"
+    },
+    {
+      "number": 285,
+      "title": "HomeAssistant - LWT offline after 24 - 48 hrs",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/285",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2022-04-18T14:09:43Z",
+      "closed_at": "2022-04-17T12:26:09Z"
+    },
+    {
+      "number": 284,
+      "title": "Checks the access code used to arm or disarm",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/284",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2022-03-21T09:36:41Z",
+      "closed_at": "2022-03-21T09:36:40Z"
+    },
+    {
+      "number": 275,
+      "title": "MQTT - D1 Mini",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/275",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2022-02-22T13:50:31Z",
+      "closed_at": "2022-02-22T13:50:31Z"
+    },
+    {
+      "number": 272,
+      "title": "Night mode of multiple partitions",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/272",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2022-02-13T10:34:18Z",
+      "closed_at": "2022-02-13T08:56:26Z"
+    },
+    {
+      "number": 268,
+      "title": "D8 is not a good pin for input on NodeMCU",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/268",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2022-03-03T16:30:07Z",
+      "closed_at": "2022-03-03T16:30:07Z"
+    },
+    {
+      "number": 267,
+      "title": "Causes Preferences.h puts to fail on ESP32 Dev and ESP32S boards",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/267",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2022-02-10T14:38:27Z",
+      "closed_at": "2022-02-10T14:38:27Z"
+    },
+    {
+      "number": 266,
+      "title": "Contact support?",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/266",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2022-02-10T15:50:31Z",
+      "closed_at": "2022-02-10T15:50:31Z"
+    },
+    {
+      "number": 264,
+      "title": "Home Assistant - MQTT ",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/264",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2024-08-23T11:25:09Z",
+      "closed_at": null
+    },
+    {
+      "number": 263,
+      "title": "[Question] Make device supervised by panel",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/263",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2022-03-03T16:32:02Z",
+      "closed_at": "2022-03-03T16:32:02Z"
+    },
+    {
+      "number": 259,
+      "title": "Pushbullet connection failed",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/259",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2022-03-03T14:32:26Z",
+      "closed_at": "2022-03-03T14:32:26Z"
+    },
+    {
+      "number": 258,
+      "title": "Resistor Selection",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/258",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2021-12-23T16:13:50Z",
+      "closed_at": "2021-12-23T16:13:50Z"
+    },
+    {
+      "number": 257,
+      "title": "dscKeybusInterface disabled the Original keypad arm/disarm functions",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/257",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2021-12-24T15:14:55Z",
+      "closed_at": null
+    },
+    {
+      "number": 256,
+      "title": "Unintended ExitDelay status",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/256",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2022-05-25T12:58:10Z",
+      "closed_at": null
+    },
+    {
+      "number": 255,
+      "title": " Checks the access code used to arm or disarm",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/255",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2022-03-03T15:26:12Z",
+      "closed_at": "2022-03-03T15:26:12Z"
+    },
+    {
+      "number": 252,
+      "title": "Reverse Keybus communication",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/252",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2022-03-03T15:41:58Z",
+      "closed_at": "2022-03-03T15:41:58Z"
+    },
+    {
+      "number": 246,
+      "title": "Illegal instruction on dscWrite",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/246",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2021-07-04T15:31:15Z",
+      "closed_at": "2021-06-22T20:38:51Z"
+    },
+    {
+      "number": 241,
+      "title": "Communication Broken with Mosquitto broker 6.0.1",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/241",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2022-03-03T16:13:23Z",
+      "closed_at": "2022-03-03T16:13:23Z"
+    },
+    {
+      "number": 235,
+      "title": "Bypass Status",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/235",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2021-05-24T12:42:05Z",
+      "closed_at": "2021-05-24T12:42:04Z"
+    },
+    {
+      "number": 234,
+      "title": "telegram connection error",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/234",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2022-03-08T12:10:56Z",
+      "closed_at": "2022-03-08T12:10:56Z"
+    },
+    {
+      "number": 231,
+      "title": "using a homepod mini as homekit hub",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/231",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2021-05-21T12:49:03Z",
+      "closed_at": "2021-05-21T12:49:02Z"
+    },
+    {
+      "number": 225,
+      "title": "SendsimpleMessage works sendMessageWithInlineKeyboard or sendmessage not working",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/225",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2022-03-15T11:37:49Z",
+      "closed_at": "2022-03-15T11:37:48Z"
+    },
+    {
+      "number": 224,
+      "title": "The QR of Blynk not work ",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/224",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2021-05-21T13:06:35Z",
+      "closed_at": "2021-05-21T13:06:34Z"
+    },
+    {
+      "number": 217,
+      "title": "Decoding of set date/time",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/217",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2022-05-12T11:53:56Z",
+      "closed_at": null
+    },
+    {
+      "number": 216,
+      "title": "Can two or more DSC Power Series alarm panels be integrated into home assistants?",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/216",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2021-04-16T13:50:01Z",
+      "closed_at": "2021-04-16T13:50:01Z"
+    },
+    {
+      "number": 202,
+      "title": "esp8266 restart problems!",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/202",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2022-03-08T12:26:09Z",
+      "closed_at": "2022-03-08T12:26:09Z"
+    },
+    {
+      "number": 200,
+      "title": "KeypadInterface: use DSC keypads without a panel for general purpose input - Feedback/testing",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/200",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2022-09-25T11:29:08Z",
+      "closed_at": null
+    },
+    {
+      "number": 199,
+      "title": "Exception running VirtualKeypad-Web 1.3 (esp8266)",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/199",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2022-03-08T12:31:11Z",
+      "closed_at": "2022-03-08T12:31:11Z"
+    },
+    {
+      "number": 197,
+      "title": "Support for other DSC Classic panels which doesn't support PC-16 module",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/197",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2021-01-31T06:16:26Z",
+      "closed_at": "2021-01-31T06:16:26Z"
+    },
+    {
+      "number": 196,
+      "title": "DSC Classic series support testing/feedback",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/196",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2024-03-18T13:44:26Z",
+      "closed_at": null
+    },
+    {
+      "number": 190,
+      "title": "Release candidate feedback",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/190",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2021-01-22T00:51:53Z",
+      "closed_at": "2021-01-22T00:51:53Z"
+    },
+    {
+      "number": 189,
+      "title": "[Question] Panic/Aux Changed",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/189",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2021-01-02T01:58:49Z",
+      "closed_at": "2021-01-02T01:58:48Z"
+    },
+    {
+      "number": 188,
+      "title": "Info on 0x8D and 0x94 cmds used for keybus communication with wireless expander module",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/188",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2022-03-08T12:31:46Z",
+      "closed_at": null
+    },
+    {
+      "number": 186,
+      "title": "[Question] Changed behaviour of Home Assistant sketch",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/186",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2021-01-22T06:01:21Z",
+      "closed_at": "2021-01-22T06:01:21Z"
+    },
+    {
+      "number": 185,
+      "title": "Not writing to panel [latest dev branch]",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/185",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2020-12-23T06:07:01Z",
+      "closed_at": "2020-12-23T06:07:01Z"
+    },
+    {
+      "number": 184,
+      "title": "Decoded cmd 0x6E (HEX data for LCD pgm) and Module/0xE6 cmd key input bug & 0x1B conflict",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/184",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2021-01-04T19:05:49Z",
+      "closed_at": "2021-01-04T19:05:49Z"
+    },
+    {
+      "number": 183,
+      "title": "Feat: Tasmota Integration",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/183",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2020-12-24T00:09:31Z",
+      "closed_at": null
+    },
+    {
+      "number": 181,
+      "title": "Add check for panel version for user access codes",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/181",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2020-12-28T01:59:13Z",
+      "closed_at": "2020-12-28T01:59:13Z"
+    },
+    {
+      "number": 175,
+      "title": "Event buffer - logs requested to improve Keybus decoding",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/175",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2020-12-06T12:39:37Z",
+      "closed_at": null
+    },
+    {
+      "number": 174,
+      "title": "keypad caracters with more or less bytes ?",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/174",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2021-01-22T06:02:47Z",
+      "closed_at": "2021-01-22T06:02:47Z"
+    },
+    {
+      "number": 168,
+      "title": "DSC Unlocker possible bug?",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/168",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2021-01-22T04:17:16Z",
+      "closed_at": "2021-01-22T04:17:16Z"
+    },
+    {
+      "number": 166,
+      "title": "Decoding 0x16 cmd for 4/6-digit user codes, modules and keypad tampers",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/166",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2020-12-26T03:36:29Z",
+      "closed_at": null
+    },
+    {
+      "number": 162,
+      "title": "New Cmds 0x41, 0x22 and more info on cmd 0xE6 subcmd 0x1A",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/162",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2020-11-26T14:43:21Z",
+      "closed_at": null
+    },
+    {
+      "number": 158,
+      "title": "PC5005 Keybus data capture - feedback requested",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/158",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2020-10-02T12:46:40Z",
+      "closed_at": null
+    },
+    {
+      "number": 157,
+      "title": "Arduino exemple keybusReader si to big for UNO",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/157",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2020-11-27T11:43:20Z",
+      "closed_at": "2020-11-27T11:43:20Z"
+    },
+    {
+      "number": 153,
+      "title": "MQTT SSL (Question)",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/153",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2021-02-04T02:25:59Z",
+      "closed_at": "2021-02-04T02:25:58Z"
+    },
+    {
+      "number": 146,
+      "title": "PC-5016 no alarm trigger?",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/146",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2020-08-21T13:04:13Z",
+      "closed_at": "2020-08-21T13:03:45Z"
+    },
+    {
+      "number": 145,
+      "title": "Gerber and Ascii drill files",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/145",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2022-03-08T12:59:32Z",
+      "closed_at": "2022-03-08T12:59:32Z"
+    },
+    {
+      "number": 142,
+      "title": "Arduino freeze after long run - known problem?",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/142",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2021-01-22T04:15:15Z",
+      "closed_at": "2021-01-22T04:15:14Z"
+    },
+    {
+      "number": 135,
+      "title": "Telegram bot",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/135",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2021-01-22T04:13:32Z",
+      "closed_at": "2021-01-22T04:13:31Z"
+    },
+    {
+      "number": 134,
+      "title": "mqttPartitionTopic occasionally stays on \"pending\" (exitDelay) after arming ",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/134",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2021-01-05T21:39:59Z",
+      "closed_at": "2021-01-05T20:57:16Z"
+    },
+    {
+      "number": 132,
+      "title": "I need help with wiring with Wemos D1 R1(esp8266 arduino Uno alternative)",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/132",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2020-02-25T09:20:36Z",
+      "closed_at": "2020-02-25T09:20:19Z"
+    },
+    {
+      "number": 131,
+      "title": "ESP8266 freezes after few days",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/131",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2021-01-22T04:12:26Z",
+      "closed_at": "2021-01-22T04:12:25Z"
+    },
+    {
+      "number": 127,
+      "title": "[0x16] Unknown panel ....",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/127",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2020-09-30T13:07:13Z",
+      "closed_at": "2020-09-30T13:07:13Z"
+    },
+    {
+      "number": 125,
+      "title": " \"Web virtual keypad\" doesn't work for me",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/125",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2022-03-08T12:34:03Z",
+      "closed_at": "2022-03-08T12:34:03Z"
+    },
+    {
+      "number": 108,
+      "title": "panel pc585 pc1565 keypad FAP",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/108",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2019-07-31T14:30:10Z",
+      "closed_at": "2019-07-31T14:30:10Z"
+    },
+    {
+      "number": 107,
+      "title": "[QUESTION] support for MQTT+Openhab",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/107",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2021-01-22T04:10:23Z",
+      "closed_at": "2021-01-22T04:10:23Z"
+    },
+    {
+      "number": 103,
+      "title": "how to see triggered zones using *3 command in blynk?",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/103",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2021-01-22T04:08:28Z",
+      "closed_at": "2021-01-22T04:08:28Z"
+    },
+    {
+      "number": 101,
+      "title": "Installer Code unlocking - testing/feedback",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/101",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2020-10-01T09:00:41Z",
+      "closed_at": "2020-10-01T09:00:41Z"
+    },
+    {
+      "number": 100,
+      "title": "setTime not working, triggered an alarm",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/100",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2019-07-22T16:45:37Z",
+      "closed_at": "2019-06-30T01:34:58Z"
+    },
+    {
+      "number": 92,
+      "title": "HomeKit Security System Support",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/92",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2022-03-08T12:57:13Z",
+      "closed_at": "2022-03-08T12:56:52Z"
+    },
+    {
+      "number": 91,
+      "title": "mqttPartitionTopic receives multiple \"D\" events",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/91",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2019-06-14T19:54:48Z",
+      "closed_at": "2019-06-14T19:54:48Z"
+    },
+    {
+      "number": 90,
+      "title": "Redirect/replace dscKeybusPrintData stream->print to a buffer",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/90",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2019-06-21T23:48:27Z",
+      "closed_at": "2019-06-21T23:48:27Z"
+    },
+    {
+      "number": 87,
+      "title": "A way to stop dscKeybusInterface",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/87",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2019-06-08T14:17:30Z",
+      "closed_at": "2019-06-08T14:17:30Z"
+    },
+    {
+      "number": 86,
+      "title": "[Question] - Is possible to get user id from panel?",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/86",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2019-06-15T00:23:42Z",
+      "closed_at": "2019-06-15T00:23:42Z"
+    },
+    {
+      "number": 84,
+      "title": "DSC 1832: 0xE6, 0xCE - Unrecognized data",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/84",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2019-06-05T12:39:10Z",
+      "closed_at": "2019-06-05T12:39:10Z"
+    },
+    {
+      "number": 80,
+      "title": "ESP32 support - testing/feedback",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/80",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2021-01-22T04:05:48Z",
+      "closed_at": "2021-01-22T04:05:48Z"
+    },
+    {
+      "number": 78,
+      "title": "Store/update panel time",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/78",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2020-05-07T07:54:35Z",
+      "closed_at": "2019-06-15T00:23:58Z"
+    },
+    {
+      "number": 77,
+      "title": "[Question] - how to stop dscKeybusInterface",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/77",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2019-06-08T14:17:17Z",
+      "closed_at": "2019-06-08T14:17:17Z"
+    },
+    {
+      "number": 67,
+      "title": "Missing release 1.1",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/67",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2019-05-21T22:31:12Z",
+      "closed_at": "2019-05-21T22:31:12Z"
+    },
+    {
+      "number": 64,
+      "title": "[QUESTION] Zone Expander",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/64",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2023-05-03T18:50:53Z",
+      "closed_at": null
+    },
+    {
+      "number": 60,
+      "title": "HTTP Server Example -Arm/Disarm not working",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/60",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2019-05-21T22:15:20Z",
+      "closed_at": "2019-05-21T22:15:19Z"
+    },
+    {
+      "number": 53,
+      "title": "Zones 17-32 not working",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/53",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2019-05-21T22:05:10Z",
+      "closed_at": "2019-05-21T22:05:10Z"
+    },
+    {
+      "number": 52,
+      "title": "Issue with Blynk code scanning",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/52",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2019-05-21T22:02:59Z",
+      "closed_at": "2019-05-21T22:02:59Z"
+    },
+    {
+      "number": 51,
+      "title": "Soft WDT reset in HomeAssistant-MQTT",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/51",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2019-05-21T21:56:15Z",
+      "closed_at": "2019-05-21T21:56:14Z"
+    },
+    {
+      "number": 42,
+      "title": "Request: pereodical status update for Home Assistant",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/42",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2019-05-31T02:26:47Z",
+      "closed_at": "2019-05-31T02:26:47Z"
+    },
+    {
+      "number": 41,
+      "title": "Blyn QR codes not working",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/41",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2018-08-27T11:03:22Z",
+      "closed_at": "2018-08-27T11:03:22Z"
+    },
+    {
+      "number": 40,
+      "title": "Pushbullet esp8266 more notification",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/40",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2019-06-13T13:29:11Z",
+      "closed_at": "2019-06-13T13:29:11Z"
+    },
+    {
+      "number": 35,
+      "title": "Status sketch Arduino ( no zones 17-32 maybe up )",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/35",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2018-08-22T18:53:22Z",
+      "closed_at": "2018-08-22T17:46:39Z"
+    },
+    {
+      "number": 33,
+      "title": "esp8266  KeybusReader error / BLYNK Zones 17-64 problem",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/33",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2018-08-22T17:47:20Z",
+      "closed_at": "2018-08-22T17:47:20Z"
+    },
+    {
+      "number": 31,
+      "title": "Hi, zones 17 to 32 don't report status. ",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/31",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2018-08-03T01:04:08Z",
+      "closed_at": "2018-08-03T01:04:08Z"
+    },
+    {
+      "number": 30,
+      "title": "ESP8266 broadcasting unwanted SSID",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/30",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2018-07-25T20:38:23Z",
+      "closed_at": "2018-07-25T20:38:23Z"
+    },
+    {
+      "number": 29,
+      "title": "QR Code",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/29",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2018-07-11T07:07:19Z",
+      "closed_at": "2018-07-11T07:07:19Z"
+    },
+    {
+      "number": 20,
+      "title": "Develop branch feedback and testing",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/20",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2018-06-14T16:45:57Z",
+      "closed_at": "2018-06-14T16:45:57Z"
+    },
+    {
+      "number": 18,
+      "title": "New DSC Virtual Keypad Project with (read/write)",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/18",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2018-06-08T18:04:49Z",
+      "closed_at": "2018-06-08T18:04:49Z"
+    },
+    {
+      "number": 16,
+      "title": "Homeassistant sketch not publishing status back to MQTT topics",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/16",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2019-01-04T20:59:24Z",
+      "closed_at": "2018-06-08T18:04:16Z"
+    },
+    {
+      "number": 14,
+      "title": "Virtual keypad keys",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/14",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2018-05-24T17:55:15Z",
+      "closed_at": "2018-05-24T17:55:15Z"
+    },
+    {
+      "number": 11,
+      "title": "[Question] - esp8266 pin configuration",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/11",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2018-05-18T19:01:18Z",
+      "closed_at": "2018-05-18T19:01:18Z"
+    },
+    {
+      "number": 10,
+      "title": "Only one Zone Alarm reported",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/10",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2018-05-23T20:13:18Z",
+      "closed_at": "2018-05-23T20:13:18Z"
+    },
+    {
+      "number": 9,
+      "title": "Wiring for arming and disarming alarm.",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/9",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2018-06-26T14:50:44Z",
+      "closed_at": "2018-06-26T14:50:44Z"
+    },
+    {
+      "number": 8,
+      "title": "[Enhancement] Init value for Fire and Alarm status",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/8",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2018-05-15T21:12:21Z",
+      "closed_at": "2018-05-15T20:52:48Z"
+    },
+    {
+      "number": 7,
+      "title": "Fire alarm not detected",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/7",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2018-05-14T17:17:22Z",
+      "closed_at": "2018-05-14T17:17:22Z"
+    },
+    {
+      "number": 6,
+      "title": "Zone Alarm not reported",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/6",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2018-05-22T04:20:11Z",
+      "closed_at": "2018-05-22T04:20:11Z"
+    },
+    {
+      "number": 5,
+      "title": "Continuous Reported Status - Zone Restored 9 ",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/5",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2018-05-07T17:22:40Z",
+      "closed_at": "2018-05-07T17:22:40Z"
+    },
+    {
+      "number": 4,
+      "title": "No ArmedStay detected",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/4",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2018-05-06T23:28:16Z",
+      "closed_at": "2018-05-06T23:28:16Z"
+    },
+    {
+      "number": 2,
+      "title": "PC1616/PC1832/PC1864 series support - data logs needed",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/2",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2018-07-17T06:07:16Z",
+      "closed_at": "2018-07-17T06:06:54Z"
+    },
+    {
+      "number": 1,
+      "title": "Screenshots",
+      "url": "https://github.com/taligentx/dscKeybusInterface/issues/1",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2021-01-24T04:14:37Z",
+      "closed_at": "2018-05-03T15:43:09Z"
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 374,
+      "title": "Add /status Command and Fix security issue",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/374",
+      "state": "open",
+      "merged_at": null,
+      "base": "master",
+      "head_sha": "fb35e20c371a759c6c7486a129fffea640b83c22",
+      "updated_at": "2026-08-20T06:14:07Z"
+    },
+    {
+      "number": 368,
+      "title": "Ppakotze patch 1",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/368",
+      "state": "open",
+      "merged_at": null,
+      "base": "master",
+      "head_sha": "f5b654e87747a95ac40106ce7ca34ea3aeee384b",
+      "updated_at": "2025-09-09T20:01:40Z"
+    },
+    {
+      "number": 363,
+      "title": "Fixes OpenHab MQTT esp8266 issue #320 - Removing Extra Space in MQTT Topic",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/363",
+      "state": "open",
+      "merged_at": null,
+      "base": "master",
+      "head_sha": "be11f4442897e5f9b3430d083dcc0e71e489c53c",
+      "updated_at": "2025-02-09T03:41:10Z"
+    },
+    {
+      "number": 362,
+      "title": "Examples - esp8266 - OpenHAB-MQTT --> Enhancement:  Arm Mode Night (Stay with no entry delay)",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/362",
+      "state": "open",
+      "merged_at": null,
+      "base": "master",
+      "head_sha": "73ff9095ddefb44b9197a594baf7c081fe5ccd6f",
+      "updated_at": "2025-03-25T03:56:51Z"
+    },
+    {
+      "number": 358,
+      "title": "Add compatibility to Arduino Core 3.0.x and ESP32-IDF 5.xx",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/358",
+      "state": "open",
+      "merged_at": null,
+      "base": "develop",
+      "head_sha": "b90670827306b1ce24912be69ec39b776cad62cb",
+      "updated_at": "2025-01-11T03:21:57Z"
+    },
+    {
+      "number": 339,
+      "title": "Set time variables only on timestamp message.",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/339",
+      "state": "open",
+      "merged_at": null,
+      "base": "master",
+      "head_sha": "d40d2838f04c869bd6fd1fa4376742f0e4c2318e",
+      "updated_at": "2024-04-19T13:09:30Z"
+    },
+    {
+      "number": 329,
+      "title": "Adding missing default values during init.",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/329",
+      "state": "closed",
+      "merged_at": null,
+      "base": "master",
+      "head_sha": "62e70002ec317a7fc552086a296fe732f741ea77",
+      "updated_at": "2023-11-17T23:59:14Z"
+    },
+    {
+      "number": 313,
+      "title": "Added new dscDoor, dscMotion and dscLeak Services.",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/313",
+      "state": "closed",
+      "merged_at": null,
+      "base": "master",
+      "head_sha": "5eecad919785112cb518fe331344c1c4bc2b9892",
+      "updated_at": "2023-01-26T21:37:29Z"
+    },
+    {
+      "number": 299,
+      "title": "Migrate SPIFFS to LittleFS so the code can compile + optional HTTP_AUTH",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/299",
+      "state": "closed",
+      "merged_at": "2024-03-07T13:40:41Z",
+      "base": "develop",
+      "head_sha": "d934dc22a7dc9597b177909a2f4658f911275651",
+      "updated_at": "2024-03-18T12:00:35Z"
+    },
+    {
+      "number": 297,
+      "title": "kghandi HomeAssistant-MQTT",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/297",
+      "state": "closed",
+      "merged_at": "2024-03-08T14:19:40Z",
+      "base": "develop",
+      "head_sha": "2044022a5d939701743102a5bacc62c300720680",
+      "updated_at": "2024-03-18T12:05:07Z"
+    },
+    {
+      "number": 296,
+      "title": "DSC PC3000 Support + Unlocker",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/296",
+      "state": "closed",
+      "merged_at": "2024-03-10T21:38:08Z",
+      "base": "dscClassic",
+      "head_sha": "ba6fd40fa0342d7aaadb252fdebae6e13b3108ea",
+      "updated_at": "2024-03-18T11:47:38Z"
+    },
+    {
+      "number": 290,
+      "title": "Streamlined write function to add buffered data input",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/290",
+      "state": "closed",
+      "merged_at": null,
+      "base": "develop",
+      "head_sha": "cdba4a704fd7b602c66628bbed9c7bcd3a2612f8",
+      "updated_at": "2023-05-03T19:51:35Z"
+    },
+    {
+      "number": 283,
+      "title": "Implemented 0x8D module programming, PC5200 support, Zones 33-64 bypass/fault/restore status messages",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/283",
+      "state": "closed",
+      "merged_at": "2024-03-07T09:20:16Z",
+      "base": "develop",
+      "head_sha": "9128e8db94df224b38dd8c7f13b1b9b71361c764",
+      "updated_at": "2024-03-07T09:20:17Z"
+    },
+    {
+      "number": 247,
+      "title": "CI / DC update",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/247",
+      "state": "closed",
+      "merged_at": "2021-12-30T02:46:32Z",
+      "base": "develop",
+      "head_sha": "fe47f40f35ed1c7d474a0d72ddd5377c0eae1df0",
+      "updated_at": "2021-12-30T02:46:32Z"
+    },
+    {
+      "number": 243,
+      "title": "CI/DC addition only - dev.",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/243",
+      "state": "closed",
+      "merged_at": "2021-05-30T06:33:40Z",
+      "base": "develop",
+      "head_sha": "d190b4379e3197d243f991c537926e223e165688",
+      "updated_at": "2021-05-30T06:34:37Z"
+    },
+    {
+      "number": 242,
+      "title": "TinyGSM-SMS for Arduino/esp8266, KeypadInterface send LCD msg and support PC2550 keypad, KeybusReader fits on Uno",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/242",
+      "state": "closed",
+      "merged_at": "2022-02-25T13:21:57Z",
+      "base": "develop",
+      "head_sha": "5cddb829667fc4364997303f4165844300d78d6f",
+      "updated_at": "2022-03-01T15:52:19Z"
+    },
+    {
+      "number": 209,
+      "title": "Added Github Action for Building Examples",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/209",
+      "state": "closed",
+      "merged_at": null,
+      "base": "master",
+      "head_sha": "f377772ab2dbe110f8c4f2b020fd954b7e8cde4e",
+      "updated_at": "2021-05-28T15:08:45Z"
+    },
+    {
+      "number": 198,
+      "title": "Blynk fix for partitions 2-8, Push notifications for power/battery/alarm",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/198",
+      "state": "closed",
+      "merged_at": "2021-02-04T02:18:40Z",
+      "base": "develop",
+      "head_sha": "820a5103bd9c23bb9d0d16e8ef5360a01a9f91d0",
+      "updated_at": "2021-02-04T02:25:04Z"
+    },
+    {
+      "number": 195,
+      "title": "Release 2.0",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/195",
+      "state": "closed",
+      "merged_at": "2021-01-22T00:42:26Z",
+      "base": "master",
+      "head_sha": "27176a1798b9b6347ec1f340e52cb69d3ec1e80e",
+      "updated_at": "2021-01-22T00:42:26Z"
+    },
+    {
+      "number": 194,
+      "title": "Add SMS example for esp32",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/194",
+      "state": "closed",
+      "merged_at": "2021-01-22T00:07:45Z",
+      "base": "develop",
+      "head_sha": "9d57221ba475abb53beba30956e4fc63b50f91bf",
+      "updated_at": "2021-01-22T00:07:45Z"
+    },
+    {
+      "number": 193,
+      "title": "Add SMS example for esp32",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/193",
+      "state": "closed",
+      "merged_at": null,
+      "base": "develop",
+      "head_sha": "d5364ead4c52b914c383b2397960e1ad3f671faa",
+      "updated_at": "2021-01-07T19:38:07Z"
+    },
+    {
+      "number": 192,
+      "title": "Added LCD data readout for Blynk examples, some new status messages",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/192",
+      "state": "closed",
+      "merged_at": "2021-01-21T20:04:38Z",
+      "base": "develop",
+      "head_sha": "3d7474ea5c4e2d136e5682c2b11422ae6d99530c",
+      "updated_at": "2021-01-31T02:07:13Z"
+    },
+    {
+      "number": 191,
+      "title": "Added *2 Sensors with RF Delinquency to VirtualKeypad examples",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/191",
+      "state": "closed",
+      "merged_at": "2021-01-06T02:21:13Z",
+      "base": "develop",
+      "head_sha": "d10336346fa4230fbc591d8641d5de5f85bb9a65",
+      "updated_at": "2021-01-06T03:57:29Z"
+    },
+    {
+      "number": 187,
+      "title": "PanelStatus16 and few new messages, 0x6E/0x70 support for 3 digit decimal data",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/187",
+      "state": "closed",
+      "merged_at": "2021-01-04T17:27:41Z",
+      "base": "develop",
+      "head_sha": "fe4859e75ddb87f0829e4a6c6638619d72309384",
+      "updated_at": "2021-01-04T18:44:16Z"
+    },
+    {
+      "number": 182,
+      "title": "Support for 95 users, decoded more status & keys messages, additions to 0x87, 0xC3 cmds",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/182",
+      "state": "closed",
+      "merged_at": "2020-12-18T00:49:47Z",
+      "base": "develop",
+      "head_sha": "b2722c3dbf1957348cd6165105be928761e06288",
+      "updated_at": "2020-12-19T14:24:34Z"
+    },
+    {
+      "number": 180,
+      "title": "Added: Zone expander 7 supervision, *6 access codes 40-42, key disarm",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/180",
+      "state": "closed",
+      "merged_at": "2020-12-09T06:56:58Z",
+      "base": "develop",
+      "head_sha": "3e698c8afa54db2712acd684ed02375afa9bd9db",
+      "updated_at": "2020-12-09T06:57:26Z"
+    },
+    {
+      "number": 178,
+      "title": "Add gerber files for Wemos D1 Mini shield",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/178",
+      "state": "closed",
+      "merged_at": "2020-12-02T19:14:46Z",
+      "base": "develop",
+      "head_sha": "2746f1a933c02e5745f396894bcc376b822c3de7",
+      "updated_at": "2020-12-02T19:15:00Z"
+    },
+    {
+      "number": 177,
+      "title": "Revert \"Add gerber files for Wemos D1 Mini shield\"",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/177",
+      "state": "closed",
+      "merged_at": "2020-12-02T13:18:14Z",
+      "base": "master",
+      "head_sha": "209152a819b7aa707b8745e56bbc1d436eb0a533",
+      "updated_at": "2020-12-02T19:13:57Z"
+    },
+    {
+      "number": 176,
+      "title": "Add gerber files for Wemos D1 Mini shield",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/176",
+      "state": "closed",
+      "merged_at": "2020-12-02T13:16:53Z",
+      "base": "master",
+      "head_sha": "b529ac7dd97008e91c019fe0b81ea7b4bf4c8c1c",
+      "updated_at": "2020-12-02T15:08:01Z"
+    },
+    {
+      "number": 173,
+      "title": "Expander updates to optimize IRAM memory and fix issues with 05/1b commands",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/173",
+      "state": "closed",
+      "merged_at": "2020-11-26T13:48:49Z",
+      "base": "expander",
+      "head_sha": "9f98af53dd3c3862c534602ec4a2ff4ae35eaefd",
+      "updated_at": "2020-11-26T13:49:22Z"
+    },
+    {
+      "number": 165,
+      "title": "Added  memory optimizations - reduce size of ISR functions",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/165",
+      "state": "closed",
+      "merged_at": "2020-10-20T08:40:48Z",
+      "base": "expander",
+      "head_sha": "46e5d2e86095bef4601956b51afb6b7bba87a140",
+      "updated_at": "2020-10-20T08:40:48Z"
+    },
+    {
+      "number": 161,
+      "title": "Added sanity checks and configs for systems with systems with 32 zones maximum support",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/161",
+      "state": "closed",
+      "merged_at": "2020-10-08T13:53:27Z",
+      "base": "expander",
+      "head_sha": "39dea795f7150b3b956fafa9c6ceec9d1233b7ce",
+      "updated_at": "2020-10-08T14:45:11Z"
+    },
+    {
+      "number": 160,
+      "title": "- merged zone expander and relay module changes",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/160",
+      "state": "closed",
+      "merged_at": "2020-10-06T05:15:52Z",
+      "base": "expander",
+      "head_sha": "ac7110879bdf7dd1d86187c7f6f83a84f58ff6e9",
+      "updated_at": "2020-10-06T05:15:52Z"
+    },
+    {
+      "number": 159,
+      "title": "- Merged zone expander and relay module code changes",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/159",
+      "state": "closed",
+      "merged_at": null,
+      "base": "expander",
+      "head_sha": "4e15aea25cc93a5494fbea3625b51adbd0fae5b8",
+      "updated_at": "2020-10-05T20:52:17Z"
+    },
+    {
+      "number": 155,
+      "title": "Start decoding Memory/Event buffer",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/155",
+      "state": "closed",
+      "merged_at": "2020-11-26T17:28:47Z",
+      "base": "develop",
+      "head_sha": "6f6151b8b8e61d1595f970abee9ab7aed811a097",
+      "updated_at": "2022-11-12T10:17:04Z"
+    },
+    {
+      "number": 151,
+      "title": "- add ESPHOME example",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/151",
+      "state": "closed",
+      "merged_at": "2020-12-02T14:54:20Z",
+      "base": "develop",
+      "head_sha": "6dbf6ff58e5576c8eea2647ec9fcb613f061e0bf",
+      "updated_at": "2020-12-02T15:12:49Z"
+    },
+    {
+      "number": 150,
+      "title": "Changes to allow skipping invalid transient  0x05 cmds and wait loop timeouts",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/150",
+      "state": "closed",
+      "merged_at": null,
+      "base": "develop",
+      "head_sha": "7df677c64a0201dd722927985ba4ddc17009af93",
+      "updated_at": "2020-11-25T15:33:30Z"
+    },
+    {
+      "number": 148,
+      "title": "add PC-5016 panel ID code",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/148",
+      "state": "closed",
+      "merged_at": "2020-08-19T14:30:00Z",
+      "base": "develop",
+      "head_sha": "50ecf0a122e1c82d3aee16fbbe2362a25d86a925",
+      "updated_at": "2020-08-19T14:30:25Z"
+    },
+    {
+      "number": 147,
+      "title": "Add debounce logic to filter out invalid cmds.  Also logic to prevent system hanging in blocking 9B wait",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/147",
+      "state": "closed",
+      "merged_at": null,
+      "base": "develop",
+      "head_sha": "3443ff33e1516635c3c9e9fe22703c0f422a3b3b",
+      "updated_at": "2020-08-06T01:16:04Z"
+    },
+    {
+      "number": 144,
+      "title": "Add ESPHome example configuration and noexitdelay fix",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/144",
+      "state": "closed",
+      "merged_at": null,
+      "base": "develop",
+      "head_sha": "42a133a7b49765cef455e1406f569e94587d828c",
+      "updated_at": "2020-08-07T00:45:54Z"
+    },
+    {
+      "number": 97,
+      "title": "Fixed misplaced '}'",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/97",
+      "state": "closed",
+      "merged_at": "2019-06-20T21:04:09Z",
+      "base": "develop",
+      "head_sha": "79a693b72656158b75ab002565d786136473e2fe",
+      "updated_at": "2019-06-20T21:04:17Z"
+    },
+    {
+      "number": 95,
+      "title": "KeybusReaderIP.ino",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/95",
+      "state": "closed",
+      "merged_at": "2019-06-15T05:20:13Z",
+      "base": "develop",
+      "head_sha": "5ec617dda7936307b24ea1d7f1dce3c7a8b7c469",
+      "updated_at": "2019-06-15T05:21:07Z"
+    },
+    {
+      "number": 94,
+      "title": "KeybusReader IP version",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/94",
+      "state": "closed",
+      "merged_at": null,
+      "base": "master",
+      "head_sha": "669d4ab00dc437a64d843c3dca5c3c9c5f890fbf",
+      "updated_at": "2019-06-15T00:26:33Z"
+    },
+    {
+      "number": 93,
+      "title": "KeybusReader IP version",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/93",
+      "state": "closed",
+      "merged_at": null,
+      "base": "master",
+      "head_sha": "23d54d6258ee446bfe6eb5ad27b9d07b923098a2",
+      "updated_at": "2019-06-14T23:23:50Z"
+    },
+    {
+      "number": 73,
+      "title": "Sync with master",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/73",
+      "state": "closed",
+      "merged_at": "2019-05-21T22:42:46Z",
+      "base": "develop",
+      "head_sha": "8ff079dfb99b15b2fc703531a748216993281b96",
+      "updated_at": "2019-05-21T22:42:46Z"
+    },
+    {
+      "number": 63,
+      "title": "Add MQTT Last Will and Testament support",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/63",
+      "state": "closed",
+      "merged_at": "2019-05-10T01:42:42Z",
+      "base": "master",
+      "head_sha": "283ceb794f406ab49ee97ba0d6de28d8d528d1c3",
+      "updated_at": "2019-05-10T01:42:42Z"
+    },
+    {
+      "number": 61,
+      "title": "OTA Updates",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/61",
+      "state": "closed",
+      "merged_at": null,
+      "base": "master",
+      "head_sha": "0d43634b93a5edaec4cda6df7994cac98e6b4e39",
+      "updated_at": "2019-05-10T01:48:29Z"
+    },
+    {
+      "number": 57,
+      "title": "Merge develop 1.1",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/57",
+      "state": "closed",
+      "merged_at": "2018-11-14T01:53:13Z",
+      "base": "master",
+      "head_sha": "6c6f8f25f761572d743d2d2c3a2157fd36491ed5",
+      "updated_at": "2018-11-14T01:53:13Z"
+    },
+    {
+      "number": 54,
+      "title": "Wemos D1 Mini",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/54",
+      "state": "closed",
+      "merged_at": "2018-11-14T01:45:53Z",
+      "base": "master",
+      "head_sha": "172f2516f1522c06d88e96b00d181cd9bb15a3c4",
+      "updated_at": "2018-11-14T05:34:42Z"
+    },
+    {
+      "number": 44,
+      "title": "Standalone HTTP example with WebSockets",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/44",
+      "state": "closed",
+      "merged_at": "2018-11-14T01:47:08Z",
+      "base": "master",
+      "head_sha": "d241346eb4d84fe28582bffa94a455761c76440a",
+      "updated_at": "2018-11-14T05:37:52Z"
+    },
+    {
+      "number": 43,
+      "title": "Standalone HTTP example with WebSockets",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/43",
+      "state": "closed",
+      "merged_at": null,
+      "base": "master",
+      "head_sha": "e302aa6eab9b4922eb96876c647f6873d31906d9",
+      "updated_at": "2018-09-01T15:51:52Z"
+    },
+    {
+      "number": 37,
+      "title": "Update VirtualKeypad-Blynk.ino",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/37",
+      "state": "closed",
+      "merged_at": null,
+      "base": "master",
+      "head_sha": "b9fbae39ac81b1ee243f2eccc466c260085b96d6",
+      "updated_at": "2018-08-25T14:57:46Z"
+    },
+    {
+      "number": 36,
+      "title": "Update dscKeybusProcessData.cpp",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/36",
+      "state": "closed",
+      "merged_at": null,
+      "base": "master",
+      "head_sha": "5eaef35009afec01f26bfd172009825f72dbe935",
+      "updated_at": "2018-08-23T14:02:44Z"
+    },
+    {
+      "number": 32,
+      "title": "Added Twilio example",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/32",
+      "state": "closed",
+      "merged_at": "2018-08-03T00:49:48Z",
+      "base": "develop",
+      "head_sha": "cd6be8c9b002510525be78ebbc60f35595ca27e5",
+      "updated_at": "2018-08-03T00:50:18Z"
+    },
+    {
+      "number": 25,
+      "title": "Update Arduino Homeassistant sketch to support multiple partitions",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/25",
+      "state": "closed",
+      "merged_at": "2018-06-13T18:25:54Z",
+      "base": "develop",
+      "head_sha": "716741d4abf98c899a71a6d2bc85236f47648105",
+      "updated_at": "2018-06-13T18:25:54Z"
+    },
+    {
+      "number": 24,
+      "title": "Add simple, nodeMCU and Arduino PCB schematics",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/24",
+      "state": "closed",
+      "merged_at": "2018-06-13T18:26:16Z",
+      "base": "develop",
+      "head_sha": "7402890ce372fb0079d5c9cf01e1acc580726cfb",
+      "updated_at": "2018-06-13T18:26:16Z"
+    },
+    {
+      "number": 23,
+      "title": "Add additional full PCB schematic",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/23",
+      "state": "closed",
+      "merged_at": null,
+      "base": "develop",
+      "head_sha": "f528d41cc207f66c8be2f0ba156322a47fb50982",
+      "updated_at": "2018-06-12T09:49:53Z"
+    },
+    {
+      "number": 22,
+      "title": "Add additional schematic with power supply and NodeMCU onboard",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/22",
+      "state": "closed",
+      "merged_at": null,
+      "base": "master",
+      "head_sha": "27920b9f1f70dd8ef8aef9697610b602f3c1a6e3",
+      "updated_at": "2018-06-11T08:33:37Z"
+    },
+    {
+      "number": 21,
+      "title": "Add etch-able circuit diagrams ",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/21",
+      "state": "closed",
+      "merged_at": "2018-06-10T18:00:39Z",
+      "base": "develop",
+      "head_sha": "131be1a39d66caa020da7a64aff4d036c7684e73",
+      "updated_at": "2018-06-10T18:00:40Z"
+    },
+    {
+      "number": 17,
+      "title": "Arduino Leonardo support",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/17",
+      "state": "closed",
+      "merged_at": null,
+      "base": "master",
+      "head_sha": "ce65c4fa9e71b286863c3b77980e90bd654aa004",
+      "updated_at": "2018-06-18T23:34:05Z"
+    },
+    {
+      "number": 15,
+      "title": "Add Arduino Ethernet Homeassistant example",
+      "url": "https://github.com/taligentx/dscKeybusInterface/pull/15",
+      "state": "closed",
+      "merged_at": "2018-06-01T14:28:41Z",
+      "base": "master",
+      "head_sha": "f67c4c4d919c153afce0cdd88f5ffa91fa05ce4c",
+      "updated_at": "2018-06-01T14:28:41Z"
+    }
+  ],
+  "develop_commits": [
+    {
+      "sha": "cca85a389d178402d4b098ec3a7044b96989eb35",
+      "date": "2022-03-08T14:02:56Z",
+      "message": "Started implementing module programming decoding 0x8D cmd\n\nJust an local dump to show work in progress, will be redone."
+    },
+    {
+      "sha": "1d0b6d49c6c7f84ccbd398df0ddd7b8e7a974274",
+      "date": "2022-03-30T11:29:35Z",
+      "message": "Isolate KeybusReader functions, remove redundant yield(), relabel dscReadSize to dscDataSize"
+    },
+    {
+      "sha": "dd1a28e74f55c05c1f87f5563b23f7e87c0c494a",
+      "date": "2022-06-16T23:27:42Z",
+      "message": "Update HomeAssistant-MQTT.ino"
+    },
+    {
+      "sha": "5ec5bead3a1370b94a87a8e4c35f0fb05bdc39f2",
+      "date": "2022-06-16T23:28:36Z",
+      "message": "Update HomeAssistant-MQTT.ino"
+    },
+    {
+      "sha": "2044022a5d939701743102a5bacc62c300720680",
+      "date": "2022-06-16T23:29:55Z",
+      "message": "Update HomeAssistant-MQTT.ino\n\nReflect breaking mqtt platform changes in HomeAssistant 2022.6\r\nhttps://www.home-assistant.io/blog/2022/06/01/release-20226/#breaking-changes"
+    },
+    {
+      "sha": "bb5f98e370c087ae27ee8f750accf7d851cb8e9e",
+      "date": "2022-06-26T22:55:15Z",
+      "message": "Added PC5200 module status and Auto-Disarm msgs\n\nDecoded by Alviunta https://github.com/taligentx/dscKeybusInterface/issues/295"
+    },
+    {
+      "sha": "d934dc22a7dc9597b177909a2f4658f911275651",
+      "date": "2022-06-27T19:25:46Z",
+      "message": "Migrate SPIFFS to LittleFS so the code can compile; Add optional HTTP AUTH user/pass"
+    },
+    {
+      "sha": "e60c4621b678a2f624170ba9bed6a196bea2c659",
+      "date": "2022-06-28T15:17:14Z",
+      "message": "PC5200 1-4 AUX PTC protection trouble/restore\n\nDecoded by https://github.com/Alviunta in https://github.com/taligentx/dscKeybusInterface/issues/295"
+    },
+    {
+      "sha": "febdee5c23d41bc998d24cfdebb2a2937afc2d62",
+      "date": "2022-06-29T16:21:52Z",
+      "message": "Add status msg for zones 33-64 bypass and fault/restore\n\nContributed by Alviunta (https://github.com/Alviunta)\nIn https://github.com/taligentx/dscKeybusInterface/issues/295"
+    },
+    {
+      "sha": "ef22f963a04f47aeb2438b54f23321ef1290af8e",
+      "date": "2022-07-01T01:52:02Z",
+      "message": "Implemented 0x8D cmd with RF5132 messages\n\nFollowing decoding in https://github.com/taligentx/dscKeybusInterface/issues/188\nSeparated 0x8D and 0x94 cmd, messages only for 0x8D\nAdded checks for printing correct options/data/signal strenght etc\nCmd 0x8D data omitted for AVR/Arduino to fit into memory\nMassively tested with RF5121 v3.14/two v5.0/v5.1 modules"
+    },
+    {
+      "sha": "eedc9ee7c24a14db4744c109cf12a7ef9d70aec4",
+      "date": "2022-07-01T02:08:24Z",
+      "message": "Merge branch 'develop' into develop"
+    },
+    {
+      "sha": "51845744e167dd6bfb10d632b3120cbcc9748b02",
+      "date": "2022-07-01T02:27:26Z",
+      "message": "Fit code into new KeybusReader isolated structure\n\nSketch fits into Arduino Uno memory size - using 31422 bytes"
+    },
+    {
+      "sha": "480f69446b11e0f80bdf6c079dc1450ce46f1d07",
+      "date": "2022-08-31T17:56:00Z",
+      "message": "Documentation added, improvements and fixes"
+    },
+    {
+      "sha": "8b07d95abfa70f3c58c4ebbcab511fda9c97a1a7",
+      "date": "2022-08-31T17:59:08Z",
+      "message": "Typo"
+    },
+    {
+      "sha": "9128e8db94df224b38dd8c7f13b1b9b71361c764",
+      "date": "2022-08-31T18:36:33Z",
+      "message": "Merged consecutive strings to improve memory usage"
+    },
+    {
+      "sha": "e80ef77ac01c99ce810d63534a5d495ac3c61820",
+      "date": "2024-03-07T09:20:16Z",
+      "message": "Merge pull request #283 from kricon/develop\n\nImplemented 0x8D module programming, PC5200 support, Zones 33-64 bypass/fault/restore status messages"
+    },
+    {
+      "sha": "d9dd3313e47dcaae7b35deca87e934f128e5709e",
+      "date": "2024-03-07T12:27:06Z",
+      "message": "Update checksum labeling"
+    },
+    {
+      "sha": "7eadc01da72f3a1ccd0c0b9f344478063cbdfae8",
+      "date": "2024-03-07T13:40:41Z",
+      "message": "Merge pull request #299 from valqk/master\n\nMigrate SPIFFS to LittleFS so the code can compile + optional HTTP_AUTH"
+    },
+    {
+      "sha": "037ab145d497c7764386929f079e32207800b87a",
+      "date": "2024-03-08T14:19:40Z",
+      "message": "Merge pull request #297 from kghandi/kghandi-HA-MQTT\n\nkghandi HomeAssistant-MQTT"
+    },
+    {
+      "sha": "df12b430fa821b23344f8e503fe9697fbc5bb5e0",
+      "date": "2024-03-10T21:17:42Z",
+      "message": "Update HomeAssistant-MQTT example config, armed status changes while armed, fire/aux/panic alarms, update VirtualKeypad-Web for ArduinoJSON 7.x"
+    },
+    {
+      "sha": "204a5d1917baae3d6e3413c35fcb546928dfd540",
+      "date": "2024-03-12T12:35:40Z",
+      "message": "Classic series PC3000 support"
+    },
+    {
+      "sha": "31a38217b9fea59215c8b208f6626c63aac1c1e2",
+      "date": "2024-03-18T09:15:54Z",
+      "message": "Classic series - support Unlocker sketch, update status handling and docs"
+    },
+    {
+      "sha": "35dd235301c49c3362dc61e5b6dfca8c068ed6e2",
+      "date": "2024-03-26T11:48:13Z",
+      "message": "Update sketch HTTPS root certificates"
+    },
+    {
+      "sha": "6881b60e6b48349d0f92778ab935e09e77968865",
+      "date": "2024-03-28T17:56:39Z",
+      "message": "Update docs for Blynk sketches"
+    },
+    {
+      "sha": "ca09256f67462fde0c10073d8c02badfa29ed471",
+      "date": "2024-03-29T13:40:53Z",
+      "message": "Update README.md"
+    }
+  ],
+  "validation": {
+    "master_scenarios": 47,
+    "develop_shared_scenarios": 46,
+    "develop_reader": "passed in separate process",
+    "pr339_event_at_zero_minute": "failed as expected; do not merge unchanged",
+    "pr358_preprocessor_idf4": "failed: empty elif",
+    "pr358_preprocessor_idf5": "passed (preprocessing only)"
+  }
+}

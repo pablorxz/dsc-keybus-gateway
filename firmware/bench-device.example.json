@@ -1,0 +1,7 @@
+{
+  "mac": "00:00:00:00:00:00",
+  "port": "COM1",
+  "address": "192.0.2.1",
+  "alarm_disconnected": false,
+  "authorized_actions": []
+}

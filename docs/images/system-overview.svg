@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="560" viewBox="0 0 1440 560" role="img" aria-labelledby="title description">
+  <title id="title">DSC Keybus Gateway system overview</title>
+  <desc id="description">A DSC PowerSeries alarm panel exchanges data over Keybus through a BOB-12009 MOSFET-based level converter and an ESP32. The gateway connects locally to Home Assistant through the ESPHome native API and to a browser dashboard over HTTP. This is a conceptual overview, not a wiring diagram.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7faf7"/><stop offset="1" stop-color="#edf4ef"/></linearGradient>
+    <linearGradient id="board" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1f6b53"/><stop offset="1" stop-color="#124232"/></linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e2e7e3"/><stop offset="1" stop-color="#aebbb3"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="9" stdDeviation="12" flood-color="#1d5037" flood-opacity="0.08"/></filter>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto-start-reverse"><path d="M 0 0 L 8 4 L 0 8 z" fill="#80a795"/></marker>
+  </defs>
+
+  <rect width="1440" height="560" rx="28" fill="url(#background)"/>
+  <g font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif">
+    <rect x="48" y="38" width="36" height="36" rx="11" fill="#173f30"/>
+    <path d="M66 46 l9 10 -9 10 -9 -10 z" fill="none" stroke="#d0ead9" stroke-width="2"/><circle cx="66" cy="56" r="2" fill="#d0ead9"/>
+    <text x="98" y="53" font-size="13" font-weight="700" letter-spacing="2.2" fill="#638473">DSC KEYBUS GATEWAY</text>
+    <text x="98" y="76" font-size="19" font-weight="600" fill="#183c2d">Your alarm, connected locally</text>
+    <rect x="1211" y="40" width="181" height="34" rx="17" fill="#e0f0e5"/>
+    <circle cx="1231" cy="57" r="5" fill="#3aa874"/><text x="1245" y="63" font-size="14" font-weight="650" fill="#356b4d">LOCAL NETWORK</text>
+
+    <!-- Panel and keypad. -->
+    <g filter="url(#shadow)"><rect x="48" y="104" width="318" height="388" rx="22" fill="#ffffff" stroke="#dfeae2"/></g>
+    <circle cx="78" cy="136" r="12" fill="#e3f2e7"/><text x="78" y="141" text-anchor="middle" font-size="12" font-weight="700" fill="#357a52">1</text>
+    <text x="100" y="141" font-size="14" font-weight="750" letter-spacing="1.4" fill="#648371">ALARM SYSTEM</text>
+    <text x="78" y="181" font-size="25" font-weight="700" fill="#173b2d">DSC PowerSeries</text>
+    <text x="78" y="205" font-size="15" fill="#71857a">Panel + physical keypad</text>
+    <rect x="83" y="250" width="154" height="151" rx="10" fill="#e5ece7" stroke="#becdc3" stroke-width="2"/>
+    <rect x="99" y="266" width="122" height="118" rx="7" fill="url(#board)"/>
+    <rect x="112" y="280" width="34" height="23" rx="3" fill="#253e32" stroke="#9cd5b1"/>
+    <rect x="158" y="280" width="49" height="12" rx="2" fill="#c4dac9"/>
+    <rect x="158" y="299" width="49" height="12" rx="2" fill="#a8cab0"/>
+    <path d="M111 322 h88 M111 336 h88 M111 350 h88" stroke="#74b78e" stroke-width="3" stroke-linecap="round"/>
+    <rect x="122" y="366" width="19" height="8" rx="2" fill="#e7d48e"/><rect x="146" y="366" width="19" height="8" rx="2" fill="#e7d48e"/><rect x="170" y="366" width="19" height="8" rx="2" fill="#e7d48e"/>
+    <g transform="translate(220 283)">
+      <rect x="0" y="0" width="83" height="128" rx="12" fill="#fafcfb" stroke="#b9c9be" stroke-width="2"/>
+      <rect x="10" y="12" width="63" height="25" rx="4" fill="#b8d9ba"/><path d="M17 20 h42 M17 27 h32" stroke="#568466" stroke-width="2" stroke-linecap="round"/>
+      <g fill="#dbe6df"><rect x="11" y="47" width="15" height="12" rx="4"/><rect x="34" y="47" width="15" height="12" rx="4"/><rect x="57" y="47" width="15" height="12" rx="4"/><rect x="11" y="66" width="15" height="12" rx="4"/><rect x="34" y="66" width="15" height="12" rx="4"/><rect x="57" y="66" width="15" height="12" rx="4"/><rect x="11" y="85" width="15" height="12" rx="4"/><rect x="34" y="85" width="15" height="12" rx="4"/><rect x="57" y="85" width="15" height="12" rx="4"/></g>
+      <rect x="25" y="105" width="33" height="8" rx="4" fill="#bbd1c2"/>
+    </g>
+    <text x="78" y="457" font-size="14" fill="#71857a">Panel keeps its existing sensors</text>
+
+    <!-- Interface and ESP32. -->
+    <g filter="url(#shadow)"><rect x="412" y="104" width="535" height="388" rx="22" fill="#ffffff" stroke="#dfeae2"/></g>
+    <circle cx="442" cy="136" r="12" fill="#e3f2e7"/><text x="442" y="141" text-anchor="middle" font-size="12" font-weight="700" fill="#357a52">2</text>
+    <text x="464" y="141" font-size="14" font-weight="750" letter-spacing="1.4" fill="#648371">THE GATEWAY</text>
+    <text x="442" y="181" font-size="25" font-weight="700" fill="#173b2d">Keybus to ESP32</text>
+    <text x="442" y="205" font-size="15" fill="#71857a">Interface + shared alarm service</text>
+    <g transform="translate(468 270)">
+      <rect width="131" height="98" rx="10" fill="#dd7161" stroke="#c95f51" stroke-width="2"/>
+      <rect x="12" y="12" width="107" height="74" rx="5" fill="#bd554b"/>
+      <g fill="#f2caa2"><circle cx="10" cy="16" r="3"/><circle cx="10" cy="32" r="3"/><circle cx="10" cy="48" r="3"/><circle cx="10" cy="64" r="3"/><circle cx="10" cy="80" r="3"/><circle cx="121" cy="16" r="3"/><circle cx="121" cy="32" r="3"/><circle cx="121" cy="48" r="3"/><circle cx="121" cy="64" r="3"/><circle cx="121" cy="80" r="3"/></g>
+      <g fill="#374c3e"><rect x="25" y="24" width="14" height="18" rx="2"/><rect x="48" y="24" width="14" height="18" rx="2"/><rect x="71" y="24" width="14" height="18" rx="2"/><rect x="94" y="24" width="14" height="18" rx="2"/></g>
+      <path d="M27 62 h77 M27 70 h77" stroke="#e89f8a" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <path d="M616 319 H666" fill="none" stroke="#91b3a0" stroke-width="3" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <g transform="translate(687 242)">
+      <rect x="0" y="0" width="146" height="164" rx="13" fill="#243d32" stroke="#19372a" stroke-width="3"/>
+      <g fill="#d6c088"><circle cx="10" cy="19" r="3"/><circle cx="10" cy="35" r="3"/><circle cx="10" cy="51" r="3"/><circle cx="10" cy="67" r="3"/><circle cx="10" cy="83" r="3"/><circle cx="10" cy="99" r="3"/><circle cx="10" cy="115" r="3"/><circle cx="10" cy="131" r="3"/><circle cx="136" cy="19" r="3"/><circle cx="136" cy="35" r="3"/><circle cx="136" cy="51" r="3"/><circle cx="136" cy="67" r="3"/><circle cx="136" cy="83" r="3"/><circle cx="136" cy="99" r="3"/><circle cx="136" cy="115" r="3"/><circle cx="136" cy="131" r="3"/></g>
+      <rect x="25" y="15" width="96" height="76" rx="5" fill="url(#chip)" stroke="#c6d1ca"/><text x="73" y="50" text-anchor="middle" font-size="17" font-weight="750" fill="#385446">ESP32</text><text x="73" y="68" text-anchor="middle" font-size="10" letter-spacing="1" fill="#657c6d">WI-FI MCU</text>
+      <rect x="49" y="103" width="48" height="30" rx="4" fill="#172d23" stroke="#709080"/><circle cx="34" cy="119" r="5" fill="#709080"/><circle cx="112" cy="119" r="5" fill="#709080"/><rect x="51" y="145" width="44" height="15" rx="3" fill="#c5d4c9"/>
+    </g>
+    <text x="535" y="394" text-anchor="middle" font-size="14" font-weight="700" fill="#496a57">BOB-12009</text>
+    <text x="535" y="414" text-anchor="middle" font-size="13" fill="#71857a">MOSFET level converter</text>
+    <text x="760" y="435" text-anchor="middle" font-size="14" font-weight="650" fill="#496a57">ESP32</text>
+    <text x="442" y="457" font-size="14" fill="#71857a">Reads state and sends keypad commands</text>
+
+    <!-- Current local interfaces. -->
+    <g filter="url(#shadow)"><rect x="993" y="104" width="399" height="388" rx="22" fill="#ffffff" stroke="#dfeae2"/></g>
+    <circle cx="1023" cy="136" r="12" fill="#e3f2e7"/><text x="1023" y="141" text-anchor="middle" font-size="12" font-weight="700" fill="#357a52">3</text>
+    <text x="1045" y="141" font-size="14" font-weight="750" letter-spacing="1.4" fill="#648371">LOCAL INTERFACES</text>
+    <text x="1023" y="181" font-size="25" font-weight="700" fill="#173b2d">Monitor and control</text>
+    <text x="1023" y="205" font-size="15" fill="#71857a">Two ways to reach the same service</text>
+    <rect x="1023" y="238" width="339" height="88" rx="14" fill="#f2f8f4" stroke="#e0ece4"/>
+    <rect x="1041" y="254" width="54" height="54" rx="13" fill="#ddf1e6"/>
+    <path d="M1051 278 l17-14 17 14 M1056 275 v19 h24 v-19 M1068 271 v16" fill="none" stroke="#3a8a60" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="1068" cy="288" r="2.5" fill="#3a8a60"/>
+    <text x="1110" y="274" font-size="18" font-weight="700" fill="#183e2e">Home Assistant</text>
+    <text x="1110" y="298" font-size="14" fill="#71857a">ESPHome native API</text>
+    <rect x="1023" y="339" width="339" height="88" rx="14" fill="#f2f8f4" stroke="#e0ece4"/>
+    <rect x="1041" y="355" width="54" height="54" rx="13" fill="#ddf1e6"/>
+    <rect x="1051" y="366" width="34" height="25" rx="3" fill="none" stroke="#3a8a60" stroke-width="2.5"/><path d="M1053 373 h30 M1062 398 h12 M1068 391 v7" fill="none" stroke="#3a8a60" stroke-width="2.5" stroke-linecap="round"/><circle cx="1057" cy="370" r="1.5" fill="#3a8a60"/>
+    <text x="1110" y="375" font-size="18" font-weight="700" fill="#183e2e">Web dashboard</text>
+    <text x="1110" y="399" font-size="14" fill="#71857a">Local browser · HTTP</text>
+    <text x="1023" y="457" font-size="14" fill="#71857a">State, zones, and alarm controls</text>
+
+    <!-- Draw communication arrows above the cards and shadows. These do not represent individual conductors. -->
+    <path d="M 371 291 l 10 -7 v 5 h 16 v -5 l 10 7 -10 7 v -5 h -16 v 5 z" fill="#80a795"/>
+    <path d="M 952 291 l 10 -7 v 5 h 16 v -5 l 10 7 -10 7 v -5 h -16 v 5 z" fill="#80a795"/>
+
+    <text x="48" y="530" font-size="13" fill="#84988b">Conceptual overview · not a wiring diagram</text>
+  </g>
+</svg>

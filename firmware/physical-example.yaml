@@ -1,0 +1,82 @@
+# Local physical build; credentials remain in the ignored physical-test directory.
+esphome:
+  name: dsc-physical-full
+  friendly_name: DSC Alarm
+  build_path: "@@ROOT@@/build/esphome-physical-full"
+
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
+    version: 3.3.12
+    platform_version: 55.3.312
+
+logger:
+  level: INFO
+  baud_rate: 115200
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+  power_save_mode: none
+  reboot_timeout: 0s
+  ap:
+    ssid: "DSC Physical Test Recovery"
+    password: !secret fallback_ap_password
+
+captive_portal:
+
+api:
+  reboot_timeout: 0s
+  encryption:
+    key: !secret api_encryption_key
+
+ota:
+  - platform: esphome
+    encryption: {}
+    port: 3232
+
+external_components:
+  - source:
+      type: local
+      path: "@@ROOT@@/components"
+    components: [dsc_alarm_panel, dsc_web]
+
+dsc_alarm_panel:
+  id: dsc_panel
+  physical_bus: true
+  clock_pin: 22
+  read_pin: 21
+  write_pin: 21
+
+dsc_web:
+  panel_id: dsc_panel
+  auth:
+    username: !secret web_username
+    password: !secret web_password
+
+alarm_control_panel:
+  - platform: dsc_alarm_panel
+    panel_id: dsc_panel
+    name: "Alarma DSC"
+    partition: 1
+
+text_sensor:
+  - platform: dsc_alarm_panel
+    panel_id: dsc_panel
+    name: "Resultado de operación DSC"
+
+binary_sensor:
+  - platform: dsc_alarm_panel
+    panel_id: dsc_panel
+    kind: connection
+    name: "Keybus conectado"
+  - platform: dsc_alarm_panel
+    panel_id: dsc_panel
+    kind: trouble
+    name: "Avería DSC"
+  - platform: dsc_alarm_panel
+    panel_id: dsc_panel
+    kind: fire
+    name: "Incendio DSC"
+@@ZONE_ENTITIES@@

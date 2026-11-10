@@ -1,0 +1,75 @@
+# Render with tools/prepare_bench.py; credentials stay in .local/bench/secrets.yaml.
+# This initial configuration never starts physical Keybus capture/transmission.
+esphome:
+  name: dsc-bench
+  friendly_name: DSC Bench
+  build_path: "@@ROOT@@/build/esphome-bench"
+
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
+    version: 3.3.12
+    platform_version: 55.3.312
+
+logger:
+  level: INFO
+  baud_rate: 115200
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+  power_save_mode: none
+  reboot_timeout: 0s
+
+api:
+  reboot_timeout: 0s
+  encryption:
+    key: !secret api_encryption_key
+
+ota:
+  - platform: esphome
+    encryption: {}
+    port: 3232
+
+external_components:
+  - source:
+      type: local
+      path: "@@ROOT@@/components"
+    components: [dsc_alarm_panel, dsc_web]
+
+dsc_alarm_panel:
+  id: dsc_panel
+  simulation: true
+
+dsc_web:
+  panel_id: dsc_panel
+  auth:
+    username: !secret web_username
+    password: !secret web_password
+
+alarm_control_panel:
+  - platform: dsc_alarm_panel
+    panel_id: dsc_panel
+    name: "Alarma simulada"
+    partition: 1
+
+text_sensor:
+  - platform: dsc_alarm_panel
+    panel_id: dsc_panel
+    name: "Resultado de operación simulada"
+
+binary_sensor:
+  - platform: dsc_alarm_panel
+    panel_id: dsc_panel
+    kind: connection
+    name: "Keybus simulado conectado"
+  - platform: dsc_alarm_panel
+    panel_id: dsc_panel
+    kind: trouble
+    name: "Avería simulada"
+  - platform: dsc_alarm_panel
+    panel_id: dsc_panel
+    kind: fire
+    name: "Incendio simulado"
+@@ZONE_ENTITIES@@
