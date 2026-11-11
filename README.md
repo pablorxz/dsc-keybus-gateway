@@ -2,6 +2,8 @@
 
 **A local bridge between DSC PowerSeries panels, ESP32, and Home Assistant.**
 
+[Installation guide](docs/installation.md) · [Releases](https://github.com/pablorxz/dsc-keybus-gateway/releases)
+
 ![Status: prototype](https://img.shields.io/badge/status-prototype-f59e0b?style=flat-square)
 ![Platform: ESP32](https://img.shields.io/badge/platform-ESP32-2c7a66?style=flat-square)
 ![Language: C++17](https://img.shields.io/badge/C%2B%2B-17-2563eb?style=flat-square)
@@ -111,6 +113,7 @@ and sensitive logs out of Git and examples.
 
 ## Documentation
 
+- [Installation](docs/installation.md) — wire the gateway, build firmware, and add it to Home Assistant.
 - [Architecture](docs/architecture.md) — layers, observed state, and queues.
 - [Development and testing](docs/development.md) — commands and checks.
 - [Isolated bench](docs/bench.md) — opt-in ESP32 setup and validation.

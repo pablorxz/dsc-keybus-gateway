@@ -125,5 +125,12 @@ was explicitly cancelled and the panel confirmed disarmed and ready. A further
 night exit-delay check used the page's remembered code and was also cancelled.
 Afterward the panel reported no trouble or fire and the user confirmed that the
 physical keypad was responsive and showed the alarm disarmed. The tests did not
-wait for any mode to become fully armed; other panel configurations, Home
-Assistant and long-term or concurrent keypad behavior remain unverified.
+wait for any mode to become fully armed or exercise Home Assistant. They do not
+establish compatibility with other panel configurations or long-term behavior.
+
+## Home Assistant and keypad follow-up
+
+The operator later confirmed that the keypad and Home Assistant integration
+work on the same PC1864 installation. This is an operator report from one
+installation. See the [installation guide](installation.md) for the wiring
+reference and integration steps.
